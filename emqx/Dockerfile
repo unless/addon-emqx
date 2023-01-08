@@ -8,7 +8,7 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 # Setup base system
 ARG BUILD_ARCH=amd64
 RUN \
-    EMQX="5.0.13" \
+    EMQX="4.3.10" \
     \
     && apt-get update \
     && apt-get install -y --no-install-recommends \
